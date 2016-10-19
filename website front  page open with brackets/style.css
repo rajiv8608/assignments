@@ -1,0 +1,27 @@
+body{
+    background-image: url(/images/back3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.front {
+     
+    display:flex;
+    margin-top: 200px;
+    margin-left:auto;
+    margin-right: auto;
+    
+}
+#main{
+    color:white;
+    font-family:serif;
+    text-align: center;
+    font-weight: 700;
+    font-size:70px;
+}
+p{
+    color:white;
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 20px;
+    
+}

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table{
+                padding: 8px;
+                border:1px solid black;
+                width:900px;
+                height:450px;
+                border-collapse: collapse;
+                margin-top: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                
+            }
+            #th1{
+                
+                background-color:#312c2c;
+                color: white;
+                font-family:serif;
+                width: auto;
+                
+            }
+            #th2{
+                background-color: darkgray;
+            }
+        
+           
+            tbody tr{
+                border-bottom:1px solid #cebcbc;
+            }
+
+            tfoot{
+                color:black;
+                font-weight:bold;
+            }
+            
+            tr{
+                
+                text-align: left;
+            }
+            tr:hover{
+                background-color:aquamarine;
+            }
+            td.btname{
+                font-weight:normal;
+                color:blue;
+            }
+            .runs{
+                font-weight: bold;
+            }
+            #cap{
+               font-size: 50px;
+               
+                font-weight: bolder;
+                color: deepskyblue;
+            }
+            tr:nth-child(even){
+                background-color: #f2f2f2;
+            }
+            
+        </style>
+    
+    </head>
+    <body>
+        <div>
+        
+        </div>
+        <div>
+            <table>
+                <caption id="cap">ScoreCard</caption>
+                <thead>
+                    <tr id="th1">
+                        <th colspan="2">New Zealand innings</th>
+                        <th colspan="5">190-10(43.5)</th>
+                    </tr>
+                    <tr id="th2">
+                        <th colspan="2" text-align="left">Batsman</th>
+                        <th>R</th>
+                        <th>B</th>
+                        <th>4s</th>
+                        <th>6s</th>
+                        <th>SR</th>                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="btname">Martin Guptil</td>
+                        <td>c Rohit b Hardik Pandya</td>
+                        <td class="runs">12</td>
+                        <td>11</td>
+                        <td>3</td>
+                        <td>0</td>
+                        <td>109.09</td>
+                    </tr>    
+                    <tr>
+                        <td class="btname">Tom Latham<sup style="color:red">*</sup></td>
+                        <td>not out</td>
+                        <td class="runs">79</td>
+                        <td>98</td>
+                        <td>7</td>
+                        <td>1</td>
+                        <td>80.61</td>
+                    </tr>
+                
+                     <tr>
+                        <td class="btname">Kane Williamson (c)</td>
+                        <td>c A Mishra b Umesh</td>
+                        <td class="runs">3</td>
+                        <td>9</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>33.33</td>
+                    </tr>
+                    <tr>
+                        <td class="btname">Ross Taylor</td>
+                        <td>c Dhoni b Umesh</td> 
+                        <td class="runs">0</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0.00</td>
+                    </tr>
+                     <tr>
+                        <td class="btname">Corey Anderson</td>
+                        <td>c Umesh b Hardik Pandya</td>
+                        <td class="runs">4</td>
+                        <td>14</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>28.57</td>
+                    </tr>
+                    <tr>
+                        <td class="btname">Luke Ronchi (wk)</td>
+                        <td>c Umesh b Hardik Pandya</td>
+                        <td class="runs">0</td>
+                        <td>3</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0.00</td>
+                    </tr>
+                    <tr>
+                        <td class="btname">James Neesham</td>
+                        <td>c&b K Jadhav</td>
+                        <td class="runs">10</td>
+                        <td>25</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>40.00</td>
+                    </tr>
+                    <tr>
+                        <td class="btname">Mitchell Santner</td>
+                        <td>c Dhoni b K Jadhav</td>
+                        <td class="runs">0</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0.00</td>
+                    </tr>
+                    <tr>
+                        <td class="btname">Doug Bracewell</td>
+                        <td>c A Rehane b A Mishra</td>
+                        <td class="runs">15</td>
+                        <td>46</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>32.60</td>
+                    </tr>
+                    <tr>
+                        <td class="btname">Tim Southee</td>
+                        <td>c M Pandey b A Mishra</td>
+                        <td class="runs">55</td>
+                        <td>45</td>
+                        <td>6</td>
+                        <td>3</td>
+                        <td>122.22</td>
+                    </tr>
+                    <tr>
+                        <td class="btname">Ish Sodhi</td>
+                        <td>lbw b A Mishra</td>
+                        <td class="runs">1</td>
+                        <td>10</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>10.00</td>
+                    </tr> 
+                    
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Extras</td>
+                        <td colspan="5">11 (b 2,lb 1,w 8,nb 0,p 0)</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Total</td>
+                        <td colspan="5">190 (10 wkts,43.5 Ov)</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </body>
+</html>
